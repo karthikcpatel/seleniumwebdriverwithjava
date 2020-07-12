@@ -13,7 +13,7 @@ public class Screenshot {
 public static void main(String args[]) throws IOException {
 	WebDriver driver;
 	String path = System.getProperty("user.dir");
-	String driverpath = path + "\\drivers\\chromedriver_81.exe";
+	String driverpath = path + "\\drivers\\chromedriver_83.exe";
 	System.setProperty("webdriver.chrome.driver", driverpath);
 	driver = new ChromeDriver();
 	driver.get("https://www.msn.com/en-in/");

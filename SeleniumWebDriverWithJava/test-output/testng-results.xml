@@ -2,27 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-06-19T13:03:04 IST" name="Default suite" finished-at="2020-06-19T13:03:14 IST" duration-ms="9636">
+  <suite started-at="2020-06-28T15:22:39 IST" name="Default suite" finished-at="2020-06-28T15:23:16 IST" duration-ms="36947">
     <groups>
     </groups>
-    <test started-at="2020-06-19T13:03:04 IST" name="Default test" finished-at="2020-06-19T13:03:14 IST" duration-ms="9636">
-      <class name="testng.ScreenshotForFailedTest">
-        <test-method signature="captureScreenshot()[pri:0, instance:testng.ScreenshotForFailedTest@2f465398]" started-at="2020-06-19T13:03:04 IST" name="captureScreenshot" finished-at="2020-06-19T13:03:13 IST" duration-ms="8817" status="PASS">
+    <test started-at="2020-06-28T15:22:39 IST" name="Default test" finished-at="2020-06-28T15:23:16 IST" duration-ms="36947">
+      <class name="pomframework.VerifyLoginPage">
+        <test-method signature="verifyLogin()[pri:0, instance:pomframework.VerifyLoginPage@762ef0ea]" started-at="2020-06-28T15:22:39 IST" name="verifyLogin" finished-at="2020-06-28T15:23:16 IST" duration-ms="36898" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- captureScreenshot -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testng.ScreenshotForFailedTest@2f465398]" started-at="2020-06-19T13:03:13 IST" name="tearDown" finished-at="2020-06-19T13:03:14 IST" duration-ms="785" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=captureScreenshot status=SUCCESS method=ScreenshotForFailedTest.captureScreenshot()[pri:0, instance:testng.ScreenshotForFailedTest@2f465398] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testng.ScreenshotForFailedTest -->
+        </test-method> <!-- verifyLogin -->
+      </class> <!-- pomframework.VerifyLoginPage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -17,20 +17,17 @@ public class ScreenshotForFailedTest {
 	driver = new ChromeDriver();
 	driver.manage().window().maximize();
 	driver.get("https://www.google.com/");
-	driver.findElement(By.xpath("//input[@name='q']")).sendKeys("Kartik Chetan Patel");	 
+	driver.findElement(By.xpath("//input[@name='k']")).sendKeys("Kartik Chetan Patel");	 
 	Thread.sleep(2000);
 	}	 
 	 
 	@AfterMethod
 	public void tearDown(ITestResult result)
 	{
-	 
-	//Here will compare if test is failing then only it will enter into if condition
 	if(ITestResult.FAILURE==result.getStatus())
 	{
 	UtilityClassForScreenshot.captureScreenshot(driver, result.getName()); 	 
 	}
-	//close application
-	driver.quit();
+	driver.close();
 	}
 }
