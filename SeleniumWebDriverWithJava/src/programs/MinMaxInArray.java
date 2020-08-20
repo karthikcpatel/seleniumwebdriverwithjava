@@ -1,7 +1,8 @@
 package programs;
 
 public class MinMaxInArray {
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 	      int numbers[] = new int[]{8, 2, 7, 1, 4, 9, 5};
 	      int numbers1[] = {1,2,2,3,4,};
 	      int s = numbers[0];
@@ -18,5 +19,5 @@ public class MinMaxInArray {
 	      } 
 	      System.out.println("Largest Number is : " + l);
 	      System.out.println("Smallest Number is : " + s);
-	   }
+	  }
 }

@@ -15,4 +15,3 @@ public class CountOccuranceOfWordInString
 			 System.out.println("The word " + word + " occurs " + count + " times in the above string");
 			 }
 		}
-	

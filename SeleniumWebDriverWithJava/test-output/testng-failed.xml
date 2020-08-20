@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testng.ScreenshotForFailedTest">
+      <class name="testng.Parameterized_DataDriven_POI">
         <methods>
-          <include name="captureScreenshot"/>
-          <include name="tearDown"/>
+          <include name="test"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
         </methods>
-      </class> <!-- testng.ScreenshotForFailedTest -->
+      </class> <!-- testng.Parameterized_DataDriven_POI -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

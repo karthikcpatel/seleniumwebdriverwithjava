@@ -17,7 +17,7 @@ public class DataDriven_POI {
 	@BeforeMethod
 	public void beforeMethod() {
 	String path = System.getProperty("user.dir");
-	String driverpath = path + "\\drivers\\chromedriver_81.exe";
+	String driverpath = path + "\\drivers\\chromedriver_84.exe";
 	System.setProperty("webdriver.chrome.driver", driverpath);
 	driver = new ChromeDriver();
 	}
@@ -46,4 +46,3 @@ public class DataDriven_POI {
 	driver.close();	
 	}
 }
-
