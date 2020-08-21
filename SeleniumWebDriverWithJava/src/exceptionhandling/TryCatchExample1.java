@@ -8,12 +8,12 @@ public class TryCatchExample1 {
 		TryCatchExample1 obj = new TryCatchExample1();
         try  
         {  
-        int data = a/b;//may throw exception
-        System.out.println(data);
-        int data1 = a/c;//may throw exception
-        System.out.println(data1);
-        int data2 = a/b;//may throw exception
-        System.out.println(data2);
+        	int data = a/b;//may throw exception
+        	System.out.println(data);
+        	int data1 = a/c;//may throw exception
+        	System.out.println(data1);
+        	int data2 = a/b;//may throw exception
+        	System.out.println(data2);
         }  
             //handling the exception  
         catch(ArithmeticException e)  
