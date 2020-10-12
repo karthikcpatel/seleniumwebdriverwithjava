@@ -18,8 +18,8 @@ void display2 (){System.out.println(rollno+" "+name+" "+college2);
 public class StaticExampleInDetail{  
 public static void main(String args[]){  
 Student s1 = new Student(15,"Kartik");  
-Student s2 = new Student(9,"Dipika");  
-Student s3 = new Student(15,"Ram");  
+Student s2 = new Student(9,"Amit");  
+Student s3 = new Student(3,"Sulagna");  
 Student s4 = new Student(9,"Chetan");
 s1.display1();  
 s2.display1();

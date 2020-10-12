@@ -1,17 +1,16 @@
 package javaoops;
 
 class A{  
-void msg1(){System.out.println("Multiple Inheritance");}  
+void defaultmethod(){System.out.println("This is from class A");}  
 }  
 
 class B{  
-void msg2(){System.out.println("Is Not Supported In Java");}  
+void defaultmethod(){System.out.println("This is from class B");}  
 }  
-public class MultipleInheritance extends A {
+public class MultipleInheritance extends A{
    
  public static void main(String args[]){  
-	 MultipleInheritance obj=new MultipleInheritance();  
-	 obj.msg1();  
-	 //obj.msg2();
+	 MultipleInheritance obj = new MultipleInheritance();  
+	 obj.defaultmethod();
 }  
 }  

@@ -14,9 +14,9 @@ public class Alerts {
 	public static void main(String args[]) throws InterruptedException {
 		WebDriver driver;
 		String path = System.getProperty("user.dir");
-		String driverpath = path + "\\drivers\\chromedriver_83.exe";
+		String driverpath = path + "\\drivers\\chromedriver_85.exe";
 		System.setProperty("webdriver.chrome.driver", driverpath);
-		System.setProperty("webdriver.chrome.silentOutput", "true");
+		System.setProperty("webdriver.chrome.silentOutput", "true");// What's this?
 		driver = new ChromeDriver();
 		driver.get("https://learn.letskodeit.com/p/practice");
 		driver.manage().window().maximize();

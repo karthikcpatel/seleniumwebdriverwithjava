@@ -22,7 +22,7 @@ public void pageTitle(String browserName){
 		driver = new InternetExplorerDriver();
 	}
 	else if(browserName.equalsIgnoreCase("chrome")){
-		System.setProperty("webdriver.chrome.driver", "C:/eclipse/drivers/chromedriver_83.exe");
+		System.setProperty("webdriver.chrome.driver", "C:/eclipse/drivers/chromedriver_85.exe");
 		driver = new ChromeDriver();
 	}	
 	driver.manage().window().maximize();

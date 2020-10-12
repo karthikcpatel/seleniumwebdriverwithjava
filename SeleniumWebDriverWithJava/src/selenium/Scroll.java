@@ -10,7 +10,7 @@ public class Scroll {
 	public static void main(String args[]) throws InterruptedException {
 		WebDriver driver;
 		String path = System.getProperty("user.dir");
-		String driverpath = path + "\\drivers\\chromedriver_81.exe";
+		String driverpath = path + "\\drivers\\chromedriver_85.exe";
 		System.setProperty("webdriver.chrome.driver", driverpath);
 		driver = new ChromeDriver();
 		driver.get("https://learn.letskodeit.com/p/practice");

@@ -13,11 +13,11 @@ public class ScreenshotForFailedTest {
 	@Test
 	public void captureScreenshot() throws Exception
 	{
-	System.setProperty("webdriver.chrome.driver", "C:\\eclipse\\drivers\\chromedriver_83.exe");
+	System.setProperty("webdriver.chrome.driver", "C:\\eclipse\\drivers\\chromedriver_85.exe");
 	driver = new ChromeDriver();
 	driver.manage().window().maximize();
 	driver.get("https://www.google.com/");
-	driver.findElement(By.xpath("//input[@name='k']")).sendKeys("Kartik Chetan Patel");	 
+	driver.findElement(By.xpath("//input[@name='q']")).sendKeys("Kartik Chetan Patel");	 
 	Thread.sleep(2000);
 	}	 
 	 

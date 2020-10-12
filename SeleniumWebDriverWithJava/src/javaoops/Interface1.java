@@ -2,7 +2,8 @@ package javaoops;
 
 interface KP15{  
 void print();
-}  
+}
+
 class Interface1 implements KP15{  
 public void print(){System.out.println("Hello Everyone. Let's try to understand Interface in Java");}  
   
@@ -11,4 +12,8 @@ Interface1 obj = new Interface1();
 obj.print();  
  } 
 }
+
+//WebDriver driver = new ChromeDriver();// this is an example of interface in Selenium
+
+
 

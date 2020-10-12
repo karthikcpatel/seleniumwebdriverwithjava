@@ -25,9 +25,8 @@ public static void main(String[] args)
 	ChildCasting obj2 = new ChildCasting();
 	obj2.KartikMoney();
 	obj2.ChetanMoney();
-	ChildCasting obj3 = new ChildCasting();
-	obj3.ChetanMoney();
-	
+//	ChildCasting obj3 = new ChildCasting();
+//	obj3.ChetanMoney();	
 	ParentCasting obj4 = (ParentCasting) obj2; //upcasting
 	obj4.ChetanMoney();
 	

@@ -24,10 +24,10 @@ static String name = "My name is Kartik...";
 
 public static void main(String args[]){  
 Abstraction1 obj = new Abstraction1();
-obj.gym();   //nandhini
-obj.car();   //aasia
-System.out.println(""+obj.name1); //pasha
-Abstraction1.test(); //ram
-System.out.println(""+name); //ram
+obj.gym();  // bhavesh = Kp hits the gym
+obj.car();  //sulagna = KP is fond of bikes
+System.out.println(""+obj.name1); // vimal = I am sof
+Abstraction1.test(); //tanuj = KP is fond of bikes
+System.out.println(""+name); //amit= Ny names iks Kar
 } 
-}  
+} 

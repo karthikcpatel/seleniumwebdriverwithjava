@@ -19,9 +19,9 @@ public void d(){System.out.println("I am d");}
   
 class Interface2{  
 public static void main(String args[]){  
-A1 a = new M1();  
-a.a();  
-a.b();  
-a.c();  
-a.d();  
+A1 obj = new M1();  
+obj.a();  
+obj.b();  
+obj.c();  
+obj.d();  
 }}  

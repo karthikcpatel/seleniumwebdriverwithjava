@@ -1,18 +1,16 @@
 package javaoops;
 
-interface Dhanji2{  
-void method();  
+interface interfacefirst{  
+void defaultmethod();  
 }  
-interface Chetan2{  
-void method1();  
+interface interfacesecond{  
+void defaultmethod();  
 }  
-class MultipleInheritanceUsingInterface implements Dhanji2, Chetan2{  
-public void method(){System.out.println("That's my grandfather...");}  
-public void method1(){System.out.println("That's my father...");}  
+class MultipleInheritanceUsingInterface implements interfacefirst, interfacesecond{  
+public void defaultmethod(){System.out.println("The default method is getting called...");}   
   
 public static void main(String args[]){  
 MultipleInheritanceUsingInterface obj = new MultipleInheritanceUsingInterface();  
-obj.method();  
-obj.method1();  
+obj.defaultmethod();  
  }  
 } 

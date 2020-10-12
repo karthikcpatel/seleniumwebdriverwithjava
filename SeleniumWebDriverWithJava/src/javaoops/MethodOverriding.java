@@ -15,8 +15,10 @@ class Vehicle1
 		  System.out.println("I like to spend my earned money on travelling");
 	}  //changing something
 	  
-	  public static void main(String args[]){  
+	  public static void main(String args[]){
+		  Vehicle1 obj1 = new Vehicle1();
 		  Vehicle1 obj = new MethodOverriding();//creating object  
-		  obj.office();//calling method  
+		  obj.office();//calling method
+		  obj1.office();
 	  }  
 	}  

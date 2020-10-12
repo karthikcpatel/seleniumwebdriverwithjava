@@ -12,7 +12,7 @@ public class RunTestOnChrome {
 	@BeforeMethod
 	public void beforeMethod() {
 	String path = System.getProperty("user.dir");
-	String driverpath = path + "\\drivers\\chromedriver_83.exe";
+	String driverpath = path + "\\drivers\\chromedriver_85.exe";
 	System.setProperty("webdriver.chrome.driver", driverpath);
 	driver = new ChromeDriver();
 	}

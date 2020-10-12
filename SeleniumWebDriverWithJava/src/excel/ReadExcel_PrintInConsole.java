@@ -24,7 +24,7 @@ public static void main(String args[]) throws Exception
 	for(int i=0;i<=rowCount;i++) {
 		String username = sheet1.getRow(i).getCell(0).getStringCellValue();
 		System.out.println("The usernames are: " +username);
-		for (int j=2;j<rowCount;j++) {
+		for (int j=3;j<rowCount;j++) {
 			String password = sheet1.getRow(i).getCell(1).getStringCellValue();
 			System.out.println("The passwords are: " +password);			
 		}
